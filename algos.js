@@ -32,3 +32,33 @@ function sumOfTwo(num1, num2) {
 
 // My solution:
 
+// function findMax(arr) {
+//     return Math.max(...arr);
+// }
+// console.log(findMax([5, 2, 9, 1, 5, 6])); // Output: 9
+// console.log(findMax([-3, 0, -10, -1])); // Output: 0
+// console.log(findMax([8])); // Output: 8
+
+// Algorithm Prompt 3: Reverse a String
+
+// Problem: Write a function called reverseString that takes a string as input and returns a new string with its characters reversed.
+
+// Input: A string, str.
+
+// Output: The reversed string.
+
+// Example:
+
+console.log(reverseString("hello")); // Output: "olleh"
+console.log(reverseString("world")); // Output: "dlrow"
+console.log(reverseString("")); // Output: ""
+
+// My solution:
+
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+
+console.log(reverseString("hello")); // Output: "olleh"
+console.log(reverseString("world")); // Output: "dlrow"
+console.log(reverseString("")); // Output: ""
