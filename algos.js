@@ -73,10 +73,19 @@ console.log(reverseString("")); // Output: ""
 
 // Example:
 
+// My solution:
+
+function isPalindrome(str) {
+    const processedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    let reversed_string = processedStr.split("").reverse().join("");
+    console.log(reversed_string)
+    if (processedStr === reversed_string) {
+        return true;
+    }
+    else return false;
+}
+
 console.log(isPalindrome("racecar")); // Output: true
 console.log(isPalindrome("hello")); // Output: false
 console.log(isPalindrome("A man, a plan, a canal, Panama")); // Output: true
 
-// My solution:
-
-function isPalindrome(str) {
