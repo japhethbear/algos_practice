@@ -62,3 +62,21 @@ function reverseString(str) {
 console.log(reverseString("hello")); // Output: "olleh"
 console.log(reverseString("world")); // Output: "dlrow"
 console.log(reverseString("")); // Output: ""
+
+// Algorithm Prompt 4: Check for Palindrome
+
+// Problem: Write a function called isPalindrome that takes a string as input and returns true if the string is a palindrome, and false otherwise. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, disregarding spaces, punctuation, and capitalization.
+
+// Input: A string, str.
+
+// Output: true if the input string is a palindrome, false otherwise.
+
+// Example:
+
+console.log(isPalindrome("racecar")); // Output: true
+console.log(isPalindrome("hello")); // Output: false
+console.log(isPalindrome("A man, a plan, a canal, Panama")); // Output: true
+
+// My solution:
+
+function isPalindrome(str) {
